@@ -1,0 +1,109 @@
+{
+  "document": {
+    "file_name": "M Tech(DS)-I Advanced Data Structure & Algorithm Design_out.pdf",
+    "page_count": 2
+  },
+  "sections": [
+    {
+      "name": "A",
+      "marks": null,
+      "instructions": [],
+      "questions": [
+        {
+          "question_number": 1,
+          "text": "Compute the time complexity of the following relation: T(n) = 9T(n/3) +n3",
+          "marks": null,
+          "section": "A",
+          "page_number": 1,
+          "sub_questions": []
+        },
+        {
+          "question_number": 2,
+          "text": "How asymptotic notations are helpful while calculating running time for an algorithm? Discuss below asymptotic notations in detail: a) Big Oh (O) b) Big Omega (Ω) c) Big theta (Θ)",
+          "marks": null,
+          "section": "A",
+          "page_number": 1,
+          "sub_questions": []
+        },
+        {
+          "question_number": 3,
+          "text": "Write an Algorithm/Pseducode to insert an element in a linked list at the beginning, middle and end positions.",
+          "marks": null,
+          "section": "A",
+          "page_number": 1,
+          "sub_questions": []
+        },
+        {
+          "question_number": 4,
+          "text": "Assume a binary tree whose pre order and in order traversals are given below. Design the respective binary tree. In-order: F, D, G, B, L, E, A, R, C, S Pre-order: A, B, D, F, G, E, L, C, R, S",
+          "marks": null,
+          "section": "A",
+          "page_number": 1,
+          "sub_questions": []
+        },
+        {
+          "question_number": 5,
+          "text": "Discuss the need of B-tree over any binary tree. Design a B tree (order 4) for the given keys comes in order: 5, 3, 21, 9, 1, 13, 2, 7, 10, 12, 4, 8. Now, perform the delete 2, 21, 10, 3, 4 in order given.",
+          "marks": null,
+          "section": "A",
+          "page_number": 1,
+          "sub_questions": []
+        },
+        {
+          "question_number": 6,
+          "text": "Calculate the time complexity of sorting N elements using Heapsort method. Sort the following element using MaxHeap:",
+          "marks": null,
+          "section": "A",
+          "page_number": 1,
+          "sub_questions": []
+        }
+      ]
+    },
+    {
+      "name": "B",
+      "marks": 20.0,
+      "instructions": [],
+      "questions": [
+        {
+          "question_number": 7,
+          "text": "a) Insert the following sequence of elements into an AVL tree, starting with an empty tree: 10, 20, 15, 25, 30, 16, 18, 19. b) Delete 30 in the AVL tree that you got.",
+          "marks": null,
+          "section": "B",
+          "page_number": 2,
+          "sub_questions": []
+        },
+        {
+          "question_number": 8,
+          "text": "Suppose we do a DFS on a directed graph G. If we remove all of the back edges found, then can we claim that the resulting graph is now acyclic? Find the order of nodes visited using DFS and BFS for the below graph.",
+          "marks": null,
+          "section": "B",
+          "page_number": 2,
+          "sub_questions": []
+        },
+        {
+          "question_number": 9,
+          "text": "Discuss the need of Dynamic Programming over Greedy method while solving 0-1 knapsack problem. For a given knapsack of Capacity 8 unit with 4 items whose value and weights (Value, Weight) are: (15,1), (10,5), (9,3), and (5, 4). Solve it using Dynamic programming.",
+          "marks": null,
+          "section": "B",
+          "page_number": 2,
+          "sub_questions": []
+        }
+      ]
+    },
+    {
+      "name": "C",
+      "marks": null,
+      "instructions": [],
+      "questions": [
+        {
+          "question_number": 10,
+          "text": "A node in a binary tree is an only-child if it has a parent node but no sibling node (Note: The root does not qualify as an only child). The \"loneliness-ratio\" of a given binary tree T is defined as the following ratio: LR(T)=(The number of nodes in T that are only children)/(The number of nodes in T). a) Prove that for any nonempty AVL tree T we have that LR(T)≤1/2. b) Is it true for any binary tree T, that if LR(T)≤1/2 then height(T)=O(lgn)? c) Is it true for any binary tree T, that if there are Θ(n) only-children, all of which are leaves, then height(T)=O(lgn)?",
+          "marks": null,
+          "section": "C",
+          "page_number": 2,
+          "sub_questions": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "document": {
+    "file_name": "amity_adms_2018.pdf",
+    "page_count": 2
+  },
+  "sections": [
+    {
+      "name": "A",
+      "marks": null,
+      "instructions": [],
+      "questions": [
+        {
+          "question_number": 1,
+          "text": "What is join dependency? How it can be resolved? Explain with example.",
+          "marks": null,
+          "section": "A",
+          "page_number": 1,
+          "sub_questions": []
+        },
+        {
+          "question_number": 2,
+          "text": "What is object identifier? What primary characteristics should an OID possess?",
+          "marks": null,
+          "section": "A",
+          "page_number": 1,
+          "sub_questions": []
+        },
+        {
+          "question_number": 3,
+          "text": "Differentiate between distributed and parallel databases.",
+          "marks": null,
+          "section": "A",
+          "page_number": 1,
+          "sub_questions": []
+        },
+        {
+          "question_number": 4,
+          "text": "How queries are evaluated in distributed database?",
+          "marks": null,
+          "section": "A",
+          "page_number": 1,
+          "sub_questions": []
+        },
+        {
+          "question_number": 5,
+          "text": "What are the different limitations of a relational database? How these can be resolved by an ORDBMS.",
+          "marks": null,
+          "section": "A",
+          "page_number": 1,
+          "sub_questions": []
+        },
+        {
+          "question_number": 6,
+          "text": "Explain the following constraints associated with ER model and the way they are represented with suitable example. (2*3=6 Marks)",
+          "marks": null,
+          "section": "A",
+          "page_number": 1,
+          "sub_questions": [
+            {
+              "label": "a",
+              "text": "Cardinality constraints.",
+              "marks": null,
+              "page_number": 1
+            },
+            {
+              "label": "b",
+              "text": "Participation constraints.",
+              "marks": null,
+              "page_number": 1
+            },
+            {
+              "label": "c",
+              "text": "Entity integrity.",
+              "marks": null,
+              "page_number": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "B",
+      "marks": 20.0,
+      "instructions": [],
+      "questions": [
+        {
+          "question_number": 7,
+          "text": "What is distributed deadlock? How wait for graph is generated and victim is selected for handling the deadlock? Explain with an example.",
+          "marks": null,
+          "section": "B",
+          "page_number": 1,
+          "sub_questions": []
+        },
+        {
+          "question_number": 8,
+          "text": "What is query optimization? Explain one pass algorithms for query optimization in detail.",
+          "marks": null,
+          "section": "B",
+          "page_number": 1,
+          "sub_questions": []
+        },
+        {
+          "question_number": 9,
+          "text": "What are transaction processing monitors? Explain different architectures with proper diagram.",
+          "marks": null,
+          "section": "B",
+          "page_number": 1,
+          "sub_questions": []
+        }
+      ]
+    },
+    {
+      "name": "C",
+      "marks": null,
+      "instructions": [],
+      "questions": [
+        {
+          "question_number": 10,
+          "text": "(a) How does the concept of an object in the object-oriented model differ from the concept of an entity in the entity-relationship model? (5 Marks)",
+          "marks": null,
+          "section": "C",
+          "page_number": 2,
+          "sub_questions": [
+            {
+              "label": "b",
+              "text": "A car-rental company maintains a database for all vehicles in its current flee. For all vehicles, it includes the vehicle identification number, license number, manufacturer, model, date of purchase, and color. Special data are included for certain type of vehicles: i. Trucks: cargo capacity. ii. Sports cars: horse power, renter age requirement. iii. Vans: number of passengers. iv. Off-road vehicles: ground clearance, drivetrain. Construct an SQL schema definition for this database, Use inheritance where appropriate. (10 Marks)",
+              "marks": null,
+              "page_number": 2
+            },
+            {
+              "label": "c",
+              "text": "Explain difference between primary key, secondary key and candidate key with proper example. (5 Marks)",
+              "marks": null,
+              "page_number": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

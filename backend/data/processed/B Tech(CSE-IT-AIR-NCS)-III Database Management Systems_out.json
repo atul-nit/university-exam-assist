@@ -1,0 +1,109 @@
+{
+  "document": {
+    "file_name": "B Tech(CSE-IT-AIR-NCS)-III Database Management Systems_out.pdf",
+    "page_count": 2
+  },
+  "sections": [
+    {
+      "name": "A",
+      "marks": null,
+      "instructions": [],
+      "questions": [
+        {
+          "question_number": 1,
+          "text": "What do you mean by DBMS? What are its advantages and disadvantages?",
+          "marks": null,
+          "section": "A",
+          "page_number": 1,
+          "sub_questions": []
+        },
+        {
+          "question_number": 2,
+          "text": "Discuss candidate, primary, alternate and secondary keys with example.",
+          "marks": null,
+          "section": "A",
+          "page_number": 1,
+          "sub_questions": []
+        },
+        {
+          "question_number": 3,
+          "text": "What undesirable dependencies are avoided when a relation is in 2NF and 3NF?",
+          "marks": null,
+          "section": "A",
+          "page_number": 1,
+          "sub_questions": []
+        },
+        {
+          "question_number": 4,
+          "text": "State the role of locks in concurrency control. Explain two phase locking protocol.",
+          "marks": null,
+          "section": "A",
+          "page_number": 1,
+          "sub_questions": []
+        },
+        {
+          "question_number": 5,
+          "text": "Define recovery. Write deferred update algorithm of recovery.",
+          "marks": null,
+          "section": "A",
+          "page_number": 1,
+          "sub_questions": []
+        },
+        {
+          "question_number": 6,
+          "text": "Illustrate the principles of deadlock avoidance in database transaction.",
+          "marks": null,
+          "section": "A",
+          "page_number": 1,
+          "sub_questions": []
+        }
+      ]
+    },
+    {
+      "name": "B",
+      "marks": null,
+      "instructions": [],
+      "questions": [
+        {
+          "question_number": 7,
+          "text": "Write short note on following along with example: (2*5=10) a. Lossless Decomposition b. Weak entity type.",
+          "marks": null,
+          "section": "B",
+          "page_number": 1,
+          "sub_questions": []
+        },
+        {
+          "question_number": 8,
+          "text": "Define serial and non-serial schedule. What is a serializable schedule? Which of the following schedules is conflict serializable? For each serializable schedule, determine the equivalent serial schedules. a. r1(x);r3(x);w1(x);r2(x);w3(x); b. r1(x);r3(x);w3(x);w1(x);r2(x); c. r3(x);r2(x);w3(x);r1(x);w1(x);",
+          "marks": null,
+          "section": "B",
+          "page_number": 1,
+          "sub_questions": []
+        },
+        {
+          "question_number": 9,
+          "text": "Consider the following schema for a library database Author ( authorid, authorname, citizenship, birthyear) Book(isbn, title, authorid, qty) Topic(isbn, subject) Branch(libname, city) Write relational algebra expressions and SQL queries for the following: I. Display names of authors born after 1940. (2) II. Display the names of libraries in Sydney, Athens and New York. (2) III. Find author wise total quantity of books. (3) IV. Display book title and authorname for books on Computer subject. (3)",
+          "marks": null,
+          "section": "B",
+          "page_number": 2,
+          "sub_questions": []
+        }
+      ]
+    },
+    {
+      "name": "C",
+      "marks": null,
+      "instructions": [],
+      "questions": [
+        {
+          "question_number": 10,
+          "text": "A) Explain the architecture of DBMS. What is the benefit of dividing DBMS into different layers? Explain role of mappings in this architecture. (10) B) ABC Company wishes to create a database with the following entities and attributes: a) Customer, with attributes Customer ID, Name, Address (Street, City, State, Zip Code), and Telephone b) Location, with attributes Location ID, Address (Street, City, State, Zip Code), and Type (values of Business or Residential) c) Rate, with attributes Rate Class and Amount After interviews with the owners, you have come up with the following business rules: i) Customers can have one or more locations. ii) Each location can have one or more rates, depending on the time of day. Draw an ER diagram for this situation. State any assumptions that you have made. (10)",
+          "marks": null,
+          "section": "C",
+          "page_number": 2,
+          "sub_questions": []
+        }
+      ]
+    }
+  ]
+}

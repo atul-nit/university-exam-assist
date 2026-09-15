@@ -1,0 +1,11 @@
+project:
+  name: ai-exam-intelligence
+  version: 0.1.0
+extraction:
+  pdf_engine: pymupdf
+  preserve_page_numbers: true
+future:
+  enable_ocr: false
+  enable_llm_validation: false
+  enable_embeddings: false
+  enable_prediction: false
